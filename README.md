@@ -1,7 +1,7 @@
-#Taller de programación imperativa en c
+# Taller de programación imperativa en c.
 
 **Integrantes**
-- [Daniel Espinoza Vega] ([2024231208])
+- Daniel Espinoza Vega (2024231208)
 
 **Lenguaje:** C (estándar C11)
 
@@ -18,7 +18,7 @@ gcc -std=c11 -Wall -Wextra -pedantic main.c -o taller
 **¿Porque punteros?**
 C pasa los argumentos por valor, así que la función recibiría copias. Con direcciones puede modificar las variables originales de quien llama.
 
-**¿Diferencia entre modificar a y *a?**
+**¿Diferencia entre modificar a y \*a?**
 Modificar a solo cambia solo cambia la copia local dentro de la función mientras que modificar *a cambia el valor de la variable dentro y fuera de la función
 
 **¿Alcance de la variable auxiliar?**
